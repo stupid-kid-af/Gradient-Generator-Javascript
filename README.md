@@ -3,6 +3,8 @@
 
 A Gradient Generator web app built with html, css and javascript.
 
+Give this a star this motivates us to make cool stuffs here.
+
 - built for making random Gradients.
 
 ## Check Out
