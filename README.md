@@ -5,6 +5,11 @@ A Gradient Generator web app built with html, css and javascript.
 
 - built for making random Gradients.
 
+## Check Out
+
+Check out this project live on 
+https://stupid-kid-af.github.io/Gradient-Generator-Javascript/
+
 
 ## Screenshots
 
