@@ -7,9 +7,9 @@ A Gradient Generator web app built with html, css and javascript.
 
 
 ## Screenshots
-
+-
 ![App Screenshot](https://user-images.githubusercontent.com/54206927/135630750-2a80a287-b2c1-43dc-af6a-af0a66403b18.png)
-
+-
 ![App Screenshot](https://user-images.githubusercontent.com/54206927/135630926-30134b64-dc50-4490-87f6-e245f700b5ff.png)
 ![App Screenshot](https://user-images.githubusercontent.com/54206927/135630934-38e6c842-23fa-47f2-949b-b28a65d20df0.png)
 ![App Screenshot](https://user-images.githubusercontent.com/54206927/135630937-e440c97a-f203-481c-8934-88603ffe4de4.png)
