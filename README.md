@@ -3,6 +3,8 @@
 
 A Gradient Generator web app built with html, css and javascript.
 
+Give this a star this motivates us to make cool stuffs here.
+
 - built for making random Gradients.
 
 ## Check Out
@@ -26,9 +28,11 @@ https://stupid-kid-af.github.io/Gradient-Generator-Javascript/
 
 Contributions are always welcome!
 
-See `contributing.md` for ways to get started.
+See `contributing.md` in "github/contributing.md" for ways to get started.
 
 Please adhere to this project's `code of conduct`.
+
+For reporting a bug go through `bug_report.md` in "github/bug_report.md".
 
   
 ## Run Locally
