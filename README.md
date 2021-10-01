@@ -10,6 +10,13 @@ A Gradient Generator web app built with html, css and javascript.
 
 ![App Screenshot](https://user-images.githubusercontent.com/54206927/135630750-2a80a287-b2c1-43dc-af6a-af0a66403b18.png)
 
+![App Screenshot](https://user-images.githubusercontent.com/54206927/135630926-30134b64-dc50-4490-87f6-e245f700b5ff.png)
+![App Screenshot](https://user-images.githubusercontent.com/54206927/135630934-38e6c842-23fa-47f2-949b-b28a65d20df0.png)
+![App Screenshot](https://user-images.githubusercontent.com/54206927/135630937-e440c97a-f203-481c-8934-88603ffe4de4.png)
+![App Screenshot](https://user-images.githubusercontent.com/54206927/135630939-e0f4f003-a79a-4829-a1a0-fadf013e4567.png)
+![App Screenshot](https://user-images.githubusercontent.com/54206927/135630942-34d73065-9c50-42db-9c45-8d260f18a192.png)
+![App Screenshot](https://user-images.githubusercontent.com/54206927/135630944-7c0245aa-c2c3-4975-8d3d-e08a72900cb2.png)
+
   
 ## Contributing
 
