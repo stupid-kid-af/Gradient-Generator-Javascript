@@ -3,6 +3,8 @@
 
 A Gradient Generator web app built with html, css and javascript.
 
+- built for making random Gradients.
+
 
 ## Contributing
 
@@ -18,25 +20,21 @@ Please adhere to this project's `code of conduct`.
 Clone the project
 
 ```bash
-  git clone https://link-to-project
+  git clone https://github.com/stupid-kid-af/Gradient-Generator-Javascript.git
 ```
 
 Go to the project directory
 
 ```bash
-  cd my-project
-```
-
-Install dependencies
-
-```bash
-  npm install
+  cd Gradient-Generator-Javascript
 ```
 
 Start the server
 
 ```bash
-  npm run start
+  google-chrome index.html
+            or
+  <Browser> index.html
 ```
 
   
@@ -59,15 +57,6 @@ Start the server
 ## Appendix
 
 Feel free to ask questions related to development!
-
-  
-## Deployment
-
-To deploy this project run
-
-```bash
-  npm run deploy
-```
 
   
 ## Feedback
