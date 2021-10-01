@@ -6,6 +6,11 @@ A Gradient Generator web app built with html, css and javascript.
 - built for making random Gradients.
 
 
+## Screenshots
+
+![App Screenshot](https://user-images.githubusercontent.com/54206927/135630750-2a80a287-b2c1-43dc-af6a-af0a66403b18.png)
+
+  
 ## Contributing
 
 Contributions are always welcome!
