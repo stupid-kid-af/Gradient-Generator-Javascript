@@ -1,30 +1,28 @@
-let generateBtn = document.getElementById("generate-btn");
-let copyBtn = document.getElementById("copy-btn");
-let outputColor = document.getElementById("output-color");
-let outputCode = document.getElementById("output-code");
-let hexString = "0123456789abcdef";
+let colorOne = document.getElementById('color-a');
+let colorTwo = document.getElementById('color-b');
+let currentDirection = 'to bottom';
+let outputCode = document.getElementById('code');
 
-let randomColor = () => {
-    let hexCode = "#";
-    for( i=0; i<6; i++){
-        hexCode += hexString[Math.floor(Math.random() * hexString.length)];
+function setDirection(value,_this){
+    let directions = document.querySelectorAll(".buttons button");
+    for(let i of directions){
+        i.classList.remove('active');
     }
-    return hexCode;
+    _this.classList.add('active');
+    currentDirection = value;
 }
 
-let generateGrad = () => {
-    let colorOne = randomColor();
-    let colorTwo = randomColor();
-    let angle = Math.floor(Math.random() * 360);
-    outputColor.style.background = `linear-gradient(${angle}deg, ${colorOne}, ${colorTwo})`;
-    outputCode.value = `background: linear-gradient(${angle}deg, ${colorOne}, ${colorTwo});`;
+function generateCode(){
+    outputCode.value = `background-image: linear-gradient(${currentDirection}, ${colorOne.value}, ${colorTwo.value});`
+
+    document.getElementsByTagName("BODY")[0].style.backgroundImage = `linear-gradient(${currentDirection}, ${colorOne.value}, ${colorTwo.value})`;
 }
 
-copyBtn.addEventListener("click", () => {
+function copyText(){
     outputCode.select();
-    document.execCommand("copy");
-    alert("Code Copied To Clipboard");
-});
+    document.execCommand('copy');
+    alert('Gradient Copied!');
+}
 
-generateBtn.addEventListener("click", generateGrad);
-window.onload = generateGrad;
+generateCode();
+
