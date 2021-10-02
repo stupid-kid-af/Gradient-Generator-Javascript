@@ -15,13 +15,16 @@ https://stupid-kid-af.github.io/Gradient-Generator-Javascript/
 
 ## Screenshots
 
-![App Screenshot](https://user-images.githubusercontent.com/54206927/135630750-2a80a287-b2c1-43dc-af6a-af0a66403b18.png)
-![App Screenshot](https://user-images.githubusercontent.com/54206927/135630926-30134b64-dc50-4490-87f6-e245f700b5ff.png)
-![App Screenshot](https://user-images.githubusercontent.com/54206927/135630934-38e6c842-23fa-47f2-949b-b28a65d20df0.png)
-![App Screenshot](https://user-images.githubusercontent.com/54206927/135630937-e440c97a-f203-481c-8934-88603ffe4de4.png)
-![App Screenshot](https://user-images.githubusercontent.com/54206927/135630939-e0f4f003-a79a-4829-a1a0-fadf013e4567.png)
-![App Screenshot](https://user-images.githubusercontent.com/54206927/135630942-34d73065-9c50-42db-9c45-8d260f18a192.png)
-![App Screenshot](https://user-images.githubusercontent.com/54206927/135630944-7c0245aa-c2c3-4975-8d3d-e08a72900cb2.png)
+![Screenshot from 2021-10-02 08-55-19](https://user-images.githubusercontent.com/54206927/135702172-aff621c4-08e6-4e40-95b7-600842ec652d.png)
+![Screenshot from 2021-10-02 08-55-23](https://user-images.githubusercontent.com/54206927/135702173-1b5103d0-d0df-4437-89b6-28723e64f248.png)
+![Screenshot from 2021-10-02 08-55-25](https://user-images.githubusercontent.com/54206927/135702174-10f68502-fbd2-4b07-8262-90ef400d2a87.png)
+![Screenshot from 2021-10-02 08-55-29](https://user-images.githubusercontent.com/54206927/135702176-b1aaa149-c9c7-4899-8fea-43500b784040.png)
+![Screenshot from 2021-10-02 08-55-33](https://user-images.githubusercontent.com/54206927/135702177-a7fcfbb2-2ea9-4e5c-abca-dfb89b668e7a.png)
+![Screenshot from 2021-10-02 08-55-49](https://user-images.githubusercontent.com/54206927/135702178-1a14a424-860b-4f28-a31c-93496afc5734.png)
+![Screenshot from 2021-10-02 08-55-56](https://user-images.githubusercontent.com/54206927/135702179-b850c896-eb20-4e95-9eb0-cc1c07d77609.png)
+![Screenshot from 2021-10-02 08-56-00](https://user-images.githubusercontent.com/54206927/135702180-ca26188c-c711-4c32-a6c5-8fcfb9044de4.png)
+![Screenshot from 2021-10-02 08-56-03](https://user-images.githubusercontent.com/54206927/135702181-d71ed351-dd52-45bc-9a1e-bc35cdf5bc7b.png)
+![Screenshot](https://user-images.githubusercontent.com/54206927/135630750-2a80a287-b2c1-43dc-af6a-af0a66403b18.png)
 
   
 ## Contributing
