@@ -54,6 +54,12 @@ input[type="color"]::-webkit-color-swatch{
     color: #d5d5dc;
     border-radius: 5px;
     cursor: pointer;
+    transition: 0.5s;
+}
+.buttons button:hover{
+  background: #4a6ee0;
+  color: #fff;
+  border: 2px solid #4a6ee0;
 }
 .rotate-icon i{
     transform: rotate(45deg);
@@ -74,20 +80,37 @@ input[type="color"]::-webkit-color-swatch{
     background-color: transparent;
 }
 /* BUTTONS */
-#submit {
+#submit{
   display: block;
-  font-size: 1.2rem;
-  background: #4a6ee0;
-  color: #fff;
-  border: 0.25rem solid #4a6ee0;
-  padding: 0.55em 1.5em;
-  margin: 1rem;
-  position: relative;
-  z-index: 1;
-  overflow: hidden;
-  margin: 0 auto 30px auto;
+  border: 1px solid #4a6ee0;
+  background: none;
+  color: #ffffff;
+  font-size: 16px;
+  padding: 12px 70px;
   border-radius: 25px;
+  margin: 0 auto 30px auto;
   cursor: pointer;
+  transition: 0.8s;
+  position: relative;
+  overflow: hidden;
+}
+#submit::before{
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 180%;
+  background: #4a6ee0;
+  z-index: -1;
+  transition: 0.8s;
+  border-radius: 0 0 50% 50%;
+}
+#submit:hover{
+  color: #4a6ee0;
+}
+#submit:hover::before{
+  height: 0%;
 }
 #copy{
     font-size: 1rem;
@@ -103,43 +126,4 @@ input[type="color"]::-webkit-color-swatch{
     border-radius: 25px;
     cursor: pointer;
     left: 75%; 
-}
-button[class^="grow"]::after {
-  transition: all 0.3s ease;
-}
-button[class^="grow"]:hover::after {
-  transition: all 0.3s ease-out;
-}
-#submit:hover,
-#copy:hover {
-  color: #4a6ee0;
-}
-#submit::after,
-#copy::after {
-  content: "";
-  background: #ecf0f1;
-  position: absolute;
-  z-index: -1;
-  padding: 0.85em 0.75em;
-  display: block;
-}
-button.grow_spin::after {
-  left: 0;
-  right: 0;
-  top: 0;
-  bottom: 0;
-  transform: scale(0, 0) rotate(-180deg);
-}
-button.grow_spin:hover::after {
-  transform: scale(1, 1) rotate(0deg);
-}
-button.grow_out::after {
-  left: 0;
-  right: 0;
-  top: 0;
-  bottom: 0;
-  transform: scale(0, 0);
-}
-button.grow_out:hover::after {
-  transform: scale(1, 1);
 }
