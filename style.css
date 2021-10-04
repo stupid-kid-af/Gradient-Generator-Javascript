@@ -63,16 +63,6 @@ input[type="color"]::-webkit-color-swatch{
     background-color: #4a6ee0;
     color: #ffffff;
 }
-#submit{
-    display: block;
-    background-color: #4a6ee0;
-    color: #ffffff;
-    font-size: 16px;
-    padding: 12px 70px;
-    border-radius: 25px;
-    margin: 0 auto 30px auto;
-    cursor: pointer;
-}
 .output{
     background-color: #f0f2fc;
 }
@@ -83,14 +73,73 @@ input[type="color"]::-webkit-color-swatch{
     padding: 10px 20px;
     background-color: transparent;
 }
+/* BUTTONS */
+#submit {
+  display: block;
+  font-size: 1.2rem;
+  background: #4a6ee0;
+  color: #fff;
+  border: 0.25rem solid #4a6ee0;
+  padding: 0.55em 1.5em;
+  margin: 1rem;
+  position: relative;
+  z-index: 1;
+  overflow: hidden;
+  margin: 0 auto 30px auto;
+  border-radius: 25px;
+  cursor: pointer;
+}
 #copy{
-    font-size: 14px;
-    background-color: #4a6ee0;
-    color: #ffffff;
+    font-size: 1rem;
+    background: #4a6ee0;
+    color: #fff;
+    border: 0.25rem solid #4a6ee0;
+    padding: 0.40em 1em;
+    margin: 1rem;
     position: relative;
-    left: 85%;
-    bottom: 10px;
-    border-radius: 3px;
-    padding: 5px;
+    z-index: 1;
+    overflow: hidden;
+    margin: 0 auto 0 auto;
+    border-radius: 25px;
     cursor: pointer;
+    left: 75%; 
+}
+button[class^="grow"]::after {
+  transition: all 0.3s ease;
+}
+button[class^="grow"]:hover::after {
+  transition: all 0.3s ease-out;
+}
+#submit:hover,
+#copy:hover {
+  color: #4a6ee0;
+}
+#submit::after,
+#copy::after {
+  content: "";
+  background: #ecf0f1;
+  position: absolute;
+  z-index: -1;
+  padding: 0.85em 0.75em;
+  display: block;
+}
+button.grow_spin::after {
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  transform: scale(0, 0) rotate(-180deg);
+}
+button.grow_spin:hover::after {
+  transform: scale(1, 1) rotate(0deg);
+}
+button.grow_out::after {
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  transform: scale(0, 0);
+}
+button.grow_out:hover::after {
+  transform: scale(1, 1);
 }
