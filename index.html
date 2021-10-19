@@ -21,40 +21,9 @@
     <nav>
       <div class="navbar-container" id= "mydiv">
         <div class="navbar-text">Gradient Generator</div>
-       
       </div>
-      <div> <button id= "mybtn" type="button">Hide Nav bar</button>
-
-      </div>
+      <button id= "mybtn" type="button">Hide Nav bar</button>
     </nav>
-<script>
-  const btn = document.getElementById("mybtn");
-
-btn.addEventListener("click", ()=>{
-
-    if(btn.innerText === "Hide Nav bar"){
-        btn.innerText = "Show Nav bar";
-    }else{
-        btn.innerText= "Hide Nav bar";
-    }
-});
-</script>
-
-<script>
-  document.getElementById("mybtn").addEventListener("click", function(){
-
-
-
-
-    var mybox= document.getElementById("mydiv");
-    if(mybox.style.display =="none"){
-      mybox.style.display="block";
-    }
-    else{
-      mybox.style.display="none";
-    }
-  })
-</script>
 
     <!-- Navbar Ends -->
     <div class="container">

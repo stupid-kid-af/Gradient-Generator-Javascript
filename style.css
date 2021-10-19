@@ -28,6 +28,7 @@ nav .navbar-container {
   margin-top: 1rem;
   display: flex;
   justify-content: center;
+  text-align: center;
 }
 
 nav .navbar-container .navbar-text {
@@ -38,9 +39,9 @@ nav .navbar-container .navbar-text {
 /* Navbar CSS start */
 .container {
   background-color: #ffffff;
-  width: 400px;
+  max-width: 400px;
   padding: 50px 30px;
-  position: absolute;
+  position: relative;
   transform: translate(-50%, -50%);
   top: 50%;
   left: 50%;
@@ -152,4 +153,34 @@ input[type="color"]::-webkit-color-swatch {
   border-radius: 25px;
   cursor: pointer;
   left: 75%;
+}
+#mybtn {
+  max-width: 20vw;
+  padding: 15px;
+  background: #2b32b2;
+  color: white;
+  border: none;
+  border-radius: 15px;
+  position: absolute;
+  z-index: 10;
+  top: 50px;
+  right: 185px;
+  cursor: pointer;
+  box-shadow: 0px 0px 5px black;
+}
+#mybtn:hover {
+  transform: scale(1.05);
+}
+/* making it resposive */
+@media screen and (max-width:500px) {
+  #mybtn {
+    top: 20px;
+    right: 0px;
+  }
+  .container {
+    top: 60%;
+  }
+  nav .navbar-container {
+    text-align: left;
+  }
 }
