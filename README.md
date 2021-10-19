@@ -12,6 +12,9 @@ Give this a star this motivates us to make cool stuffs here.
 Check out this project live on 
 https://stupid-kid-af.github.io/Gradient-Generator-Javascript/
 
+Love random stuff, check out Random-Gradient-Generator
+https://random-gradient-gen.netlify.app/
+
 
 ## Screenshots
 
