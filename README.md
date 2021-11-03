@@ -3,7 +3,7 @@
 
 A Gradient Generator web app built with html, css and javascript.
 
-- currently working on Ui
+- currently working on Ui (Branch)
 
 Give this a star this motivates us to make cool stuffs here.
 
