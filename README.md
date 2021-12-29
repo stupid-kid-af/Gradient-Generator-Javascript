@@ -72,7 +72,7 @@ Start the server
 
 - Add more integrations
 
-- You tell me
+- u tell me
 
   
 ## License
